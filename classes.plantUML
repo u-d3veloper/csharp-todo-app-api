@@ -1,0 +1,8 @@
+@startuml Models
+    class Todo{
+        + Id: int
+        + Task: string
+        + Completed : bool
+        + Deadline : DateTime?
+    }
+@enduml
