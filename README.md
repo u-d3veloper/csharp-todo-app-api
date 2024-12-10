@@ -13,12 +13,12 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet add package Microsoft.EntityFrameworkCore.Sqlite
 ``` 
 
-### Compiler et executer le programme avec
+### Build and run the program
 ```dotnet run```
 
-Le port de lecture est http://localhost:5139/
+Query port is listening on http://localhost:5139/
 
-### Le programme principal doit implémenter cette structure : 
+### Entry point structure (Program.cs) : 
 ```
 using Data;
 
